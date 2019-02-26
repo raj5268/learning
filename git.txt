@@ -109,4 +109,67 @@ Step 4 : commands
 
 Step 5 : adding project to remote repository (github)
 
+Git and GitHub Beginner Tutorial 4 - Enable git commands autocomplete and colors on Mac
+=====================================================================
+
+Today we will learn
+———————————
+1. How to enable git commands autocomplete feature on mac os
+2. How to enable git commands color features on mac os
+____________________________________________________
+
+For autocomplete
+——————————
+Step 1 :  goto terminal
+        put git-completion.bash script in your home directory
+curl https://raw.githubusercontent.com/git... -o ~/.git-completion.bash
+
+
+Step 2 : Add following line to your .bash_profile. 
+       This tells bash to run git autocomplete script if it exists
+
+vi ~/.bash_profile
+
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+
+For enabling git colors
+————————————
+
+Step 1 : check if colouring is already enabled
+  terminal - git config color.ui
+
+Step 2 : enable colouring 
+  git config --global color.ui true
+  
+Git and GitHub Beginner Tutorial 5 - Branching and Merging
+================================================
+
+Today we will learn
+———————————
+1. What are branches
+2. How to create branch
+3. How to checkout branch
+4. How to merge branch to master
+5. How to delete branch (local and remote)
+_________________________________________
+
+Step 1 : Create branch 
+   git branch “branch name”
+
+Step 2 : Checkout branch
+   git checkout “branch name”
+
+Step 3 : Merge new branch in master branch
+   git merge “branch name”
+
+Step 4 : Delete branch
+   git branch -d “branch name”    — delete from local
+   git push origin —delete “branch name”   — delete from remote
+
+
+
+
 
