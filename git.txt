@@ -168,6 +168,118 @@ Step 3 : Merge new branch in master branch
 Step 4 : Delete branch
    git branch -d “branch name”    — delete from local
    git push origin —delete “branch name”   — delete from remote
+   
+Git and GitHub Beginner Tutorial 6 - How to send email from GitHub
+======================================================
+
+Today we will learn
+———————————
+How to trigger notification email from github 
+whenever there is any change/commit in the project
+_________________________________________
+
+Step 1 : Github - Repository - Settings - integration & services - add email 
+
+Step 2 : Test and validate by making some change in the project
+
+Git TAGS - What | Why | When | How
+============================
+
+Today We will learn:
+-------------------------------
+1. What are tags / releases
+2. Why should i create TAGs
+3. When to create TAGs
+4. How to create TAGs in git
+     create | show | publish | delete
+
+Step 1:
+Checkout the branch where you want to create the tag
+git checkout "branch name"
+example : git checkout master
+________________________________________________________
+
+Step 2:
+Create tag with some name
+git tag "tag name"
+example : git tag v1.0
+git tag -a v1.0 -m "ver 1 of .."  (to create annotated tags) 
+________________________________________________________
+
+Step 3:
+Display or Show tags
+git tag
+git show v1.0
+git tag -l “v1.*”
+________________________________________________________
+
+Step 4:
+Push tags to remote
+git push origin v1.0
+git push origin --tags
+git push --tags 
+(to push all tags at once)
+________________________________________________________
+
+Step 5:
+Delete tags (if required only)
+to delete tags from local :
+git tag -d v1.0
+git tag --delete v1.0
+
+to delete tags from remote :
+git push origin -d v1.0
+git push origin --delete v1.0
+git push origin :v1.0
+
+to delete multiple tags at once:
+git tag -d v1.0 v1.1 (local)
+git push origin -d v1.0 v1.1 (remote)
+
+________________________________________________________
+
+
+Checking out TAGS
+
+We cannot checkout tags in git
+We can create a branch from a tag and checkout the branch
+git checkout -b "branch name" "tag name"
+example : git checkout -b ReleaseVer1 v1.0
+________________________________________________________
+
+Creating TAGS from past commits
+
+git tag "tag name" "reference of commit"
+example : git tag  v1.2 5fcdb03
+
+
+
+Today we will learn:
+
+1. How to create github repository
+2. How to clone repository in eclipse
+3. How to add eclipse project to github repository
+4. How to commit, push and pull the changes
+
+
+Step 1 : Create GitHub account and SignIn
+
+Step 2 : Start a Project = Create a repository
+
+Step 3 : Start Eclipse
+
+Step 4 : Goto Perspective - Git Repositories and click on Add Git Repo
+
+Step 5 : Create a project in Eclipse
+
+Step 6 : Do a right click on Project - Team - Share - Add to git repo
+
+Step 7 : Commit and Push the project to the repo
+
+Step 8 : Commit and Push every change to the repo
+
+_______________________________________________________________ .
+.
 
 
 
