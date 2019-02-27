@@ -111,3 +111,120 @@ Step 3 : goto - http://localhost:8080/cli/
 Step 4 : download jerkins-cli jar. Place at any location.
 
 Step 5 : test the jenkins command line is working
+
+Today we will learn:
+———————————
+How to create New Users
+How to configure users
+How to create new roles
+How to assign users to roles
+How to Control user access on projects
+
+
+Step 1 : Create new users
+
+Step 2 : Configure users
+
+Step 3 : Create and manage user roles Roles Strategy Plugin - download - restart jenkins
+
+Step 4 : Manage Jenkins - Configure Global Security - Authorisation - Role Based Strategy
+
+Step 5 : Create Roles and Assign roles to users
+
+Step 6 : Validate authorization and authentication are working properly
+
+Jenkins Beginner Tutorial 6 - Basic Configurations
+========================================
+
+Step 1 : Goto Manage Jenkins - Configure System
+
+Step 2 : Get a basic understanding of common/basic configurations
+
+Jenkins Beginner Tutorial 7 - Getting started with JOBS
+============================================
+
+Today we will learn:
+———————————
+1. How to create a basic JOB in Jenkins
+2. Basic job configurations
+2. How to run the Job remotely
+4. How to chain Job Execution
+
+
+Step 1 : Jenkins - New Item - add details 
+
+Step 2 : How to trigger the job remotely
+
+Step 3 : How to chain job executions
+
+====================================== .
+
+Jenkins Beginner Tutorial 8 - Jenkins integration with GIT (SCM)
+===================================================
+
+Today we will learn
+———————————
+1. Create a java program and run it through command line
+2. Create a Jenkins job to run the java program
+3. Add this program/project to Git
+4. Jenkins - add git plugin
+5. Configure Jenkins job to trigger the execution when a change is pushed to GitHub
+__________________________________________________________
+
+Step 1 : Create a java program
+
+Step 2 : Compile from command line
+   javac “name of .java class”
+      java “name of class without extension .java”
+
+Step 3 : Create a Jenkins job to run this program
+
+Step 4 : Add the project to Git and GitHub
+
+For Reference:
+----------------------
+Git and GitHub Beginner Tutorial 1 - Introduction - https://youtu.be/-U-eUHI6euM?list=PLh...
+
+Git and GitHub Beginner Tutorial 2 - Getting started - Install Git (mac) - https://youtu.be/0Icla6TVNNo?list=PLh...
+
+Git and GitHub Beginner Tutorial 3 - Getting started - Install Git windows - https://youtu.be/sBTAkHOxvOk?list=PLh...
+
+Step 5 : Configure Jenkins job to trigger build on Git commit
+
+Note : If you get :
+'javac' is not recognized as an internal or external command,
+operable program or batch file.
+Try this:
+When creating a new item in Jenkins, you can choose the jdk in the General tab (execute multiple builds if necessary option), either you click on System or the jdk that you have installed on that moment (e.g. jdk1.8.0_181).
+=================================================
+Today we will learn :
+How to use CATLIGHT
+(status notifier for jenkins)
+
+What is CATLIGHT
+https://catlight.io/
+
+How to use CATLIGHT
+
+
+REFERENCES:
+Catlight website:
+https://catlight.io/
+
+Downloads link:
+https://catlight.io/downloads
+
+Support link:
+http://catlight.helprace.com/
+
+Blog link:
+http://blog.catlight.io/
+
+_____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook - https://www.facebook.com/automationst...
+
+Subscribe on:
+Youtube - http://youtube.com/automationstepbystep
