@@ -228,3 +228,360 @@ Like on Facebook - https://www.facebook.com/automationst...
 
 Subscribe on:
 Youtube - http://youtube.com/automationstepbystep
+=======================================================================
+Today we will learn :
+What is Automated Deployment ?
+
+Main stages in
+Continuous delivery and deployment pipeline
+
+1. BUILD
+2. DEPLOY
+3. TEST
+4. RELEASE
+
+Lets see ...
+A real world Project SetUp
+
+
+Automated Deployment is the process of Automating the deployment process in a Continuous Delivery system
+
+Build - Deploy - Test - Release
+
+_____________________________________________________________
+References:
+https://www.slideshare.net/MartinEtma...
+
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook - https://www.facebook.com/automationst...
+
+Subscribe on:
+Youtube - http://youtube.com/automationstepbystep
+=========================================================================
+
+Today we will learn :
+How to do Automated Deployments with Jenkins ?
+
+
+Step 1
+Start Jenkins
+
+Step 2
+Install Plugin
+(Deploy Plugin)
+https://wiki.jenkins-ci.org/display/J...
+
+You can also goto your Jenkins on browser and
+- Manage Jenkins - Plugins Manager - Click on Available tab and search for deploy to container
+Add to Jenkins
+
+Step 3
+Create a Build JOB in Jenkins
+
+Step 4
+Add Post-build Action Deploy war/ear to container
+(add values to the fields) 
+
+sample war file - https://tomcat.apache.org/tomcat-6.0-...
+
+Step 5
+In tomcat-users.xml add user for DEPLOYMENT
+user username="deployer" password="deployer" roles="manager-script" /
+
+Step 6
+Run and Validate
+
+What is Automated Deployment
+https://www.youtube.com/watch?v=HkLXb...
+
+How to install and setup TOMCAT
+https://www.youtube.com/playlist?list...
+
+---------------------------------------------------------------------------------------------------
+If you want to deploy on more than one server. Check these links
+
+https://stackoverflow.com/questions/1...
+
+http://paxcel.net/blog/automation-of-...
+_____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook - https://www.facebook.com/automationst...
+
+Subscribe on:
+Youtube - http://youtube.com/automationstepbystep
+===============================================================
+
+Today we will learn about Jenkins Notifications
+
+Manage Jenkins - Configure System - Email Notifications
+
+To find your smtp server and port details
+https://www.arclab.com/en/kb/email/li...
+
+..
+
+References:
+Notification Plugins
+
+https://wiki.jenkins-ci.org/display/J...
+
+https://wiki.jenkins-ci.org/display/J...
+
+https://wiki.jenkins-ci.org/display/J...
+
+____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook :
+https://www.facebook.com/automationst...
+
+Subscribe on Youtube :
+http://youtube.com/automationstepbystep
+
+=============================================================
+
+Hi, I am Raghav and
+Today we will learn:
+
+What is Pipeline in Jenkins ?
+
+Pipeline - is a workflow with group of events or jobs that are chained and integrated with each other in sequence.
+Every job in a pipeline has some dependency on one or more other jobs
+
+Let us understand...
+in an easy way !
+(Watch the representations in the video)
+
+
+References - 
+https://tex.stackexchange.com/questio...
+https://readtiger.com/wkp/en/Pump
+
+
+____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook :
+https://www.facebook.com/automationst...
+
+Follow on Twitter:
+https://twitter.com/automationsbs
+
+Subscribe on Youtube :
+http://youtube.com/automationstepbystep
+========================================================
+Hi, I am Raghav and Today we will learn :
+
+How to setup Delivery Pipeline in Jenkins ?
+
+Follow along step by step
+
+Step 1
+Chain required jobs in sequence
+Add upstream/downstream jobs
+
+Step 2
+Install
+Delivery Pipeline Plugin
+
+Step 3
+Add 
+Delivery Pipeline View
+configure the view
+
+Step 4
+Run and Validate
+
+
+____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook :
+https://www.facebook.com/automationst...
+
+Follow on Twitter:
+https://twitter.com/automationsbs
+
+Subscribe on Youtube :
+http://youtube.com/automationstepbystep
+==========================================================
+Hi, I am Raghav and Today we will learn :
+
+How to setup BUILD PIPELINE in Jenkins ?
+
+Follow along step by step
+
+Step 1
+Chain required jobs in sequence
+Add upstream/downstream jobs
+
+How to chain jobs? Watch
+https://www.youtube.com/watch?v=ndLbn...
+
+Step 2
+Install
+Build Pipeline Plugin
+
+Step 3
+Add 
+Build Pipeline View
+configure the view
+
+Step 4
+Run and Validate
+
+____________________________________________________________
+
+Difference between Build and Delivery Pipeline:
+
+At a high level you can say Build pipeline has a smaller scope in terms of the entire process of software dev and delivery whereas delivery pipeline has a much broader scope. Also when we say delivery, build pipeline will be one of its components.
+Build Pipeline provides a view of the upstream and downstream jobs setup for the build process (typically)
+Whereas Delivery Pipeline gives the visualization of the complete Delivery Process that may include Build, Deploy, Test. In the delivery pipeline view, you can see each of these sections in a separate box.
+Just have a look here:
+Build Pipeline - https://wiki.jenkins.io/display/JENKI...
+Delivery Pipeline - https://wiki.jenkins.io/display/JENKI...
+
+____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook :
+https://www.facebook.com/automationst...
+
+Follow on Twitter:
+https://twitter.com/automationsbs
+
+Subscribe on Youtube :
+http://youtube.com/automationstepbystep
+
+============================================================Hi, I am Raghav and Today we will learn :
+
+What is Jenkins Blue Ocean?
+How to get started with Blue Ocean ?
+
+Blue Ocean is a new User Interface (UI) and User Experience (UX) for Jenkins
+
+It is designed to make Jenkins UI more efficient (reduces clutter and increases the clarity)
+
+In simple words:
+Blue Ocean is a new User Interface for Jenkins and provides an interactive view for Jenkins Pipeline (and jobs)
+
+How to get Blue Ocean
+Ensure you have Jenkins 2.7 or above
+and follow the steps:
+
+Step 1
+Install Blue Ocean Plugin
+
+Step 2
+Switch to Blue Ocean View
+
+References : Blue Ocean Wiki
+https://wiki.jenkins-ci.org/display/J...
+____________________________________________________________
+Jenkins Playlist:
+https://www.youtube.com/playlist?list...
+
+Like on Facebook :
+https://www.facebook.com/automationst...
+
+Follow on Twitter:
+https://twitter.com/automationsbs
+
+Subscribe on Youtube :
+http://youtube.com/automationstepbystep
+
+===============================================================
+How to trigger jenkins job on receiving an email
+
+References
+https://wiki.jenkins.io/display/JENKI...
+
+https://github.com/jenkinsci/poll-mai...
+
+https://thesaitech.wordpress.com/2017...
+
+JENKINS PLAYLIST
+https://www.youtube.com/playlist?list.
+
+==========================================================
+JENKINS : Build Monitor View
+
+Today we will learn:
+
+1. What is Build Monitor View plugin
+2. How to add in Jenkins
+ 
+References:
+https://wiki.jenkins.io/display/JENKI...
+
+==========================================================
+
+Hi, I am Raghav & today we will learn:
+
+1. How to download and install Jenkins on aws ec2 linux
+2. How to access Jenkins from browser
+3. How to start and stop Jenkins
+4. How to start Jenkins on different port
+5. How to uninstall Jenkins
+
+Step 1 : Connect to your Linux machine
+
+Step 2: Update Packages
+   sudo yum update
+
+Step 3 : Check Java is installed. If not install java  
+   java -version
+   sudo yum install java-1.8.0
+
+   To check and select one out of multiple java versions available
+   sudo /usr/sbin/alternatives --config java
+
+Step 4 : Download latest Jenkins code package
+   sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenk...
+
+Step 5 : Import a key file from Jenkins-CI to enable installation from the package
+   sudo rpm --import http://pkg.jenkins-ci.org/redhat/jenk...
+
+Step 6 : Install Jenkins
+   sudo yum install jenkins
+
+Step 7 : Start jenkins
+   sudo service jenkins start
+
+Step 8 : Access Jenkins server using the public DNS of your ec2 on port 8080
+   http://{ec2-public-dns}:8080
+   example : http://3.89.79.74:8080/
+
+Note : Here you might have to allow port 8080 in your security group settings
+                     
+
+Useful tips
+
+To start jenkins on a diff port
+Update port number in /etc/sysconfig/jenkins
+
+
+To fetch initial admin password
+ sudo su -
+ cd /var/lib/jenkins/secrets/
+ cat initialAdminPassword
+0bcbbcab7f984af7b4171b55e9201d04
+To stop Jenkins
+ sudo service jenkins stop
+
+To uninstall Jenkins
+ sudo service jenkins stop
+ sudo yum remove jenkins
+ sudo rm -r /var/lib/jenkins
+
+
+References
+https://docs.aws.amazon.com/aws-techn...

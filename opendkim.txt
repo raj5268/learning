@@ -1,0 +1,25 @@
+yum install opendkim
+opendkim-genkey -D /etc/opendkim/keys/neustar.biz/ -d neustar.biz -s default
+chown -R root:opendkim /etc/opendkim/keys/neustar.biz
+chmod 640 /etc/opendkim/keys/neustar.biz/default.private
+chmod 644 /etc/opendkim/keys/neustar.biz/default.txt
+
+
+===========================================================
+ opendkim-genkey -D /etc/opendkim/keys/neustar.biz/ -d neustar.biz -s default
+ chown -R root:opendkim /etc/opendkim/keys/neustar.biz
+ chmod 640 /etc/opendkim/keys/neustar.biz/default.private
+ chmod 644 /etc/opendkim/keys/neustar.biz/default.txt
+ vim /etc/opendkim.conf
+ cp /etc/opendkim.conf /home/prajendra/
+ cp /etc/opendkim/KeyTable /home/prajendra/
+ cp /etc/opendkim/SigningTable /home/prajendra/
+ cp /etc/opendkim/TrustedHosts /home/prajendra/
+ vim /etc/opendkim.conf
+ vim /etc/opendkim/KeyTable
+ vim /etc/opendkim/SigningTable
+ vim /etc/opendkim/TrustedHosts
+ cp /etc/postfix/main.cf /home/prajendra/
+ vim /etc/postfix/main.cf
+ 
+ default._domainkey
